@@ -1,0 +1,501 @@
+patient_id,age,gender,height_cm,weight_kg,blood_pressure,diabetes,heart_rate,cholesterol,smoking_status,admission_date,diagnosis
+PID0001,58,Female,190,87,97/69,No,76,Normal,Former smoker,2025-06-07,Hypertension
+PID0002,20,Male,158,85,91/89,Yes,91,Borderline,Smoker,2023-08-05,Hypertension
+PID0003,54,Female,168,89,138/66,Yes,61,Normal,Former smoker,2023-04-05,Heart Disease
+PID0004,47,Female,150,80,120/71,Yes,85,Borderline,Former smoker,2025-01-18,Hypertension
+PID0005,66,Female,151,76,129/62,No,85,Borderline,Smoker,2023-09-20,Hypertension
+PID0006,67,Female,171,61,94/63,No,60,Normal,Non-smoker,2023-04-20,Heart Disease
+PID0007,44,Male,169,99,138/74,Yes,77,Borderline,Former smoker,2024-07-25,Healthy
+PID0008,36,Male,154,94,132/83,Yes,90,Normal,Smoker,2025-03-25,Hypertension
+PID0009,72,Male,151,89,109/76,No,98,High,Non-smoker,2025-03-22,Healthy
+PID0010,57,Female,173,75,105/70,Yes,75,Borderline,Former smoker,2024-06-01,Heart Disease
+PID0011,48,Male,174,54,92/63,No,73,High,Non-smoker,2023-10-05,Healthy
+PID0012,50,Male,176,75,126/88,No,63,Borderline,Smoker,2023-12-04,Diabetes
+PID0013,67,Female,160,83,107/80,No,83,Borderline,Non-smoker,2025-06-12,Hypertension
+PID0014,32,Female,158,54,124/83,No,72,Borderline,Former smoker,2025-06-22,Hypertension
+PID0015,76,Male,165,96,90/74,Yes,86,Normal,Smoker,2023-12-31,Healthy
+PID0016,36,Male,173,81,123/71,Yes,96,Borderline,Smoker,2025-02-09,Diabetes
+PID0017,30,Female,152,90,126/65,Yes,94,Normal,Non-smoker,2023-01-10,Healthy
+PID0018,56,Male,156,69,99/73,Yes,94,Borderline,Former smoker,2023-02-14,Healthy
+PID0019,35,Female,171,82,130/73,No,64,High,Former smoker,2023-11-13,Diabetes
+PID0020,40,Male,156,95,96/90,Yes,92,Borderline,Non-smoker,2022-10-27,Diabetes
+PID0021,55,Female,187,94,113/71,No,100,Normal,Smoker,2023-01-08,Hypertension
+PID0022,21,Male,168,72,120/68,Yes,61,Borderline,Former smoker,2023-09-04,Heart Disease
+PID0023,76,Female,163,89,114/63,No,60,Normal,Former smoker,2024-08-15,Hypertension
+PID0024,45,Male,151,73,130/65,Yes,75,Borderline,Former smoker,2024-08-15,Hypertension
+PID0025,79,Female,163,90,131/60,Yes,80,Normal,Smoker,2024-11-02,Healthy
+PID0026,24,Male,189,76,106/85,Yes,93,Normal,Non-smoker,2024-08-10,Diabetes
+PID0027,67,Male,176,91,136/62,No,77,Normal,Smoker,2024-07-19,Hypertension
+PID0028,64,Female,160,50,104/87,Yes,87,Normal,Former smoker,2023-08-22,Diabetes
+PID0029,61,Male,171,97,135/67,No,81,Borderline,Non-smoker,2023-03-15,Diabetes
+PID0030,26,Female,165,64,99/69,No,66,Normal,Smoker,2025-04-23,Diabetes
+PID0031,59,Female,170,55,139/82,Yes,90,High,Former smoker,2024-11-27,Heart Disease
+PID0032,28,Male,177,86,133/72,No,67,High,Former smoker,2025-05-20,Heart Disease
+PID0033,25,Female,159,83,106/63,Yes,88,High,Former smoker,2024-09-23,Hypertension
+PID0034,59,Female,187,89,133/84,No,74,Normal,Smoker,2022-12-09,Diabetes
+PID0035,44,Male,166,63,98/89,Yes,87,Normal,Smoker,2024-01-26,Diabetes
+PID0036,40,Female,179,93,103/80,No,79,Borderline,Smoker,2022-10-19,Heart Disease
+PID0037,63,Female,185,69,99/71,Yes,73,High,Non-smoker,2025-02-07,Heart Disease
+PID0038,64,Female,163,85,110/70,No,70,Borderline,Smoker,2023-03-26,Heart Disease
+PID0039,41,Male,188,96,132/78,Yes,82,Normal,Former smoker,2023-11-03,Healthy
+PID0040,66,Female,158,82,134/81,No,93,Normal,Non-smoker,2025-06-05,Hypertension
+PID0041,45,Male,154,63,139/88,No,79,Borderline,Smoker,2024-04-03,Diabetes
+PID0042,78,Female,161,62,128/83,No,73,Borderline,Non-smoker,2025-01-19,Diabetes
+PID0043,72,Female,186,67,96/60,No,92,Borderline,Non-smoker,2024-03-27,Hypertension
+PID0044,26,Female,188,88,96/77,Yes,80,Normal,Former smoker,2022-12-26,Diabetes
+PID0045,59,Female,162,61,121/63,Yes,86,Normal,Former smoker,2024-05-07,Heart Disease
+PID0046,48,Female,189,100,140/85,Yes,89,High,Smoker,2024-06-01,Diabetes
+PID0047,43,Male,177,60,106/78,No,92,Borderline,Smoker,2023-05-09,Healthy
+PID0048,67,Male,156,64,110/70,No,64,Normal,Smoker,2023-07-05,Diabetes
+PID0049,69,Female,159,95,93/82,Yes,93,High,Smoker,2024-09-05,Healthy
+PID0050,75,Female,181,62,93/60,Yes,95,Normal,Smoker,2022-12-03,Diabetes
+PID0051,60,Male,172,70,130/88,Yes,80,Borderline,Smoker,2024-07-15,Heart Disease
+PID0052,27,Female,180,77,130/63,Yes,75,Borderline,Smoker,2022-11-28,Diabetes
+PID0053,45,Female,154,81,130/90,No,89,High,Former smoker,2025-03-27,Hypertension
+PID0054,76,Male,157,70,121/83,No,96,High,Former smoker,2024-02-09,Heart Disease
+PID0055,78,Male,167,80,134/83,No,97,Normal,Non-smoker,2023-07-09,Healthy
+PID0056,58,Male,159,84,134/86,Yes,65,Normal,Former smoker,2023-03-02,Healthy
+PID0057,55,Female,173,93,114/77,No,84,High,Smoker,2025-03-03,Healthy
+PID0058,76,Male,172,90,116/84,Yes,85,Normal,Former smoker,2025-04-05,Healthy
+PID0059,35,Female,181,55,90/64,No,73,Normal,Former smoker,2025-04-29,Hypertension
+PID0060,73,Male,188,100,95/80,Yes,81,Borderline,Former smoker,2023-04-22,Diabetes
+PID0061,40,Male,176,52,100/65,Yes,82,High,Non-smoker,2023-02-25,Healthy
+PID0062,66,Male,187,82,109/60,Yes,63,Normal,Former smoker,2024-01-18,Healthy
+PID0063,25,Female,189,72,96/90,No,87,High,Smoker,2024-11-28,Diabetes
+PID0064,56,Female,168,61,97/63,No,97,High,Former smoker,2023-08-18,Healthy
+PID0065,22,Female,177,94,115/76,No,62,High,Former smoker,2024-07-21,Heart Disease
+PID0066,58,Male,167,78,114/81,No,99,Normal,Former smoker,2024-03-03,Diabetes
+PID0067,41,Female,178,64,93/63,No,61,Borderline,Smoker,2022-10-13,Hypertension
+PID0068,21,Female,183,99,107/80,Yes,91,High,Smoker,2025-01-10,Hypertension
+PID0069,68,Male,173,94,103/73,Yes,87,Borderline,Smoker,2024-03-28,Healthy
+PID0070,66,Male,153,57,116/67,Yes,73,Normal,Smoker,2023-10-17,Diabetes
+PID0071,39,Male,186,77,117/80,Yes,60,Borderline,Non-smoker,2024-02-12,Healthy
+PID0072,76,Female,156,91,128/60,No,94,Normal,Smoker,2025-01-19,Hypertension
+PID0073,33,Female,160,65,120/80,No,61,Borderline,Non-smoker,2024-01-06,Hypertension
+PID0074,71,Male,150,68,126/79,No,88,Borderline,Smoker,2024-12-07,Hypertension
+PID0075,72,Male,156,52,109/70,No,97,Borderline,Non-smoker,2025-06-16,Heart Disease
+PID0076,70,Male,164,91,103/69,No,65,High,Non-smoker,2024-08-19,Heart Disease
+PID0077,62,Male,170,77,100/79,No,69,Borderline,Smoker,2022-12-28,Healthy
+PID0078,22,Male,161,54,137/73,No,83,High,Non-smoker,2024-08-15,Heart Disease
+PID0079,29,Male,159,59,103/77,Yes,65,High,Former smoker,2023-09-04,Hypertension
+PID0080,46,Female,158,81,94/64,Yes,94,Borderline,Non-smoker,2023-10-04,Hypertension
+PID0081,24,Male,155,79,139/78,Yes,76,High,Smoker,2023-02-13,Heart Disease
+PID0082,59,Female,159,96,110/85,No,83,Borderline,Former smoker,2024-04-11,Heart Disease
+PID0083,70,Male,180,95,134/79,Yes,95,Borderline,Non-smoker,2025-05-02,Diabetes
+PID0084,32,Female,183,66,117/68,No,78,High,Former smoker,2023-04-18,Healthy
+PID0085,23,Female,172,76,127/61,Yes,90,High,Non-smoker,2025-03-17,Heart Disease
+PID0086,52,Female,162,63,130/76,No,77,High,Former smoker,2024-11-06,Heart Disease
+PID0087,51,Female,158,96,101/66,No,94,High,Former smoker,2025-04-02,Healthy
+PID0088,80,Male,188,72,97/88,No,70,Borderline,Former smoker,2025-06-11,Diabetes
+PID0089,77,Male,168,74,125/89,Yes,86,High,Smoker,2023-03-15,Hypertension
+PID0090,29,Female,181,84,113/74,No,84,Borderline,Non-smoker,2023-03-10,Heart Disease
+PID0091,62,Female,181,75,117/79,No,75,Borderline,Former smoker,2025-04-05,Diabetes
+PID0092,65,Female,166,98,111/71,No,76,High,Non-smoker,2023-07-14,Hypertension
+PID0093,29,Female,153,67,96/75,No,79,Borderline,Former smoker,2023-07-23,Healthy
+PID0094,32,Female,162,66,121/85,No,60,Borderline,Former smoker,2023-11-17,Heart Disease
+PID0095,34,Female,190,57,127/87,Yes,100,Borderline,Former smoker,2023-01-31,Heart Disease
+PID0096,33,Female,179,65,118/75,No,67,Normal,Smoker,2024-07-23,Healthy
+PID0097,55,Male,170,62,97/63,Yes,88,High,Non-smoker,2023-11-19,Hypertension
+PID0098,77,Male,172,80,129/85,Yes,94,High,Former smoker,2025-03-24,Heart Disease
+PID0099,68,Female,181,85,117/69,Yes,66,High,Smoker,2025-01-15,Diabetes
+PID0100,21,Male,159,75,125/82,Yes,97,High,Non-smoker,2023-05-20,Heart Disease
+PID0101,40,Male,183,50,109/76,Yes,83,Normal,Former smoker,2023-04-13,Healthy
+PID0102,31,Female,173,53,98/82,No,67,High,Former smoker,2023-08-06,Diabetes
+PID0103,40,Male,157,73,94/64,Yes,65,Borderline,Former smoker,2024-12-24,Healthy
+PID0104,40,Female,181,93,106/75,No,68,High,Smoker,2025-02-09,Diabetes
+PID0105,73,Female,188,55,117/88,Yes,72,Borderline,Smoker,2024-03-28,Heart Disease
+PID0106,22,Male,176,77,119/83,No,94,High,Non-smoker,2023-06-25,Healthy
+PID0107,21,Female,168,92,104/63,Yes,90,Normal,Smoker,2024-05-15,Hypertension
+PID0108,48,Male,166,81,138/83,Yes,97,Borderline,Former smoker,2025-04-19,Heart Disease
+PID0109,20,Male,159,92,99/65,Yes,62,Normal,Smoker,2023-02-27,Hypertension
+PID0110,50,Male,164,54,133/77,No,97,Borderline,Non-smoker,2023-10-28,Heart Disease
+PID0111,32,Female,160,95,91/81,Yes,97,Normal,Smoker,2022-11-12,Diabetes
+PID0112,35,Male,152,91,125/67,Yes,70,Borderline,Non-smoker,2024-06-08,Heart Disease
+PID0113,42,Female,177,98,95/87,No,67,High,Non-smoker,2023-02-03,Diabetes
+PID0114,40,Male,186,81,121/65,No,63,Normal,Former smoker,2023-03-03,Heart Disease
+PID0115,71,Female,181,73,113/75,No,85,Borderline,Smoker,2024-12-21,Diabetes
+PID0116,55,Female,168,81,109/80,Yes,68,High,Non-smoker,2025-02-24,Healthy
+PID0117,22,Male,187,92,125/78,Yes,64,Borderline,Non-smoker,2024-08-22,Healthy
+PID0118,78,Male,156,72,107/76,No,77,Normal,Non-smoker,2024-11-14,Diabetes
+PID0119,29,Male,170,57,125/67,No,98,High,Former smoker,2025-06-30,Hypertension
+PID0120,77,Male,158,92,136/82,No,71,Normal,Smoker,2022-10-28,Healthy
+PID0121,73,Female,159,69,118/88,No,78,Borderline,Smoker,2023-08-17,Heart Disease
+PID0122,49,Male,178,81,111/63,No,77,High,Former smoker,2024-02-10,Heart Disease
+PID0123,66,Male,184,93,97/77,No,77,Normal,Smoker,2024-11-28,Healthy
+PID0124,32,Female,164,73,134/66,Yes,98,Borderline,Former smoker,2023-06-22,Healthy
+PID0125,54,Male,165,95,118/68,Yes,79,Borderline,Smoker,2023-07-18,Hypertension
+PID0126,26,Male,156,80,111/81,No,95,Normal,Smoker,2025-02-09,Hypertension
+PID0127,74,Female,184,53,97/71,Yes,71,Borderline,Non-smoker,2023-03-26,Hypertension
+PID0128,34,Female,158,71,119/82,Yes,75,Normal,Former smoker,2025-05-18,Heart Disease
+PID0129,27,Male,153,100,119/72,Yes,98,High,Smoker,2025-02-16,Diabetes
+PID0130,26,Male,172,79,98/83,Yes,86,Normal,Non-smoker,2024-10-14,Healthy
+PID0131,31,Female,154,62,119/85,No,97,Borderline,Former smoker,2024-04-01,Heart Disease
+PID0132,61,Female,151,56,99/71,No,96,High,Non-smoker,2024-08-23,Healthy
+PID0133,66,Male,155,57,112/89,No,69,Normal,Smoker,2023-06-30,Diabetes
+PID0134,66,Male,150,83,91/79,No,89,Borderline,Non-smoker,2022-12-28,Diabetes
+PID0135,50,Male,162,80,108/61,No,78,Normal,Smoker,2024-08-05,Diabetes
+PID0136,64,Female,168,63,104/80,No,90,Normal,Non-smoker,2023-08-07,Healthy
+PID0137,64,Female,167,84,96/77,Yes,92,Normal,Former smoker,2024-07-22,Heart Disease
+PID0138,72,Female,177,90,127/61,Yes,69,High,Former smoker,2023-06-11,Hypertension
+PID0139,52,Male,182,94,107/62,No,91,High,Former smoker,2023-08-01,Diabetes
+PID0140,59,Male,167,99,92/78,Yes,66,Normal,Non-smoker,2025-01-18,Hypertension
+PID0141,46,Male,186,59,129/81,Yes,76,Borderline,Smoker,2025-01-14,Diabetes
+PID0142,59,Female,151,74,123/65,Yes,70,High,Former smoker,2025-03-11,Healthy
+PID0143,42,Female,177,62,118/85,No,83,High,Non-smoker,2023-10-02,Heart Disease
+PID0144,73,Male,155,62,92/73,No,95,Normal,Non-smoker,2024-08-27,Heart Disease
+PID0145,46,Male,182,98,99/62,No,90,Borderline,Former smoker,2024-10-18,Diabetes
+PID0146,36,Male,173,69,90/89,No,65,High,Former smoker,2024-10-07,Diabetes
+PID0147,65,Female,165,87,97/72,No,93,Borderline,Former smoker,2023-12-13,Hypertension
+PID0148,23,Male,168,61,133/68,Yes,98,High,Non-smoker,2025-01-03,Hypertension
+PID0149,58,Male,177,74,99/86,Yes,89,Normal,Non-smoker,2023-08-19,Healthy
+PID0150,38,Female,186,100,103/68,No,86,Borderline,Smoker,2023-11-01,Heart Disease
+PID0151,79,Male,150,51,112/63,No,93,High,Former smoker,2023-04-25,Healthy
+PID0152,49,Male,163,91,105/63,No,98,High,Smoker,2023-01-13,Hypertension
+PID0153,44,Male,156,69,92/78,Yes,93,High,Smoker,2023-02-21,Hypertension
+PID0154,56,Female,170,79,119/83,No,62,Borderline,Non-smoker,2023-01-11,Heart Disease
+PID0155,57,Male,171,81,93/81,No,62,Normal,Smoker,2024-05-10,Heart Disease
+PID0156,27,Male,165,84,92/89,No,70,Borderline,Former smoker,2024-03-18,Heart Disease
+PID0157,45,Female,168,83,136/78,Yes,88,Borderline,Former smoker,2023-08-24,Diabetes
+PID0158,43,Male,186,87,128/77,Yes,64,Normal,Non-smoker,2024-06-22,Diabetes
+PID0159,62,Male,160,69,135/90,Yes,88,Normal,Former smoker,2024-09-24,Healthy
+PID0160,77,Male,164,87,112/74,No,86,Normal,Smoker,2023-07-12,Hypertension
+PID0161,49,Male,187,88,134/68,No,67,Borderline,Smoker,2023-04-21,Heart Disease
+PID0162,47,Female,181,73,140/81,Yes,76,Borderline,Former smoker,2023-03-02,Diabetes
+PID0163,34,Male,152,78,135/60,No,91,Normal,Non-smoker,2024-11-21,Hypertension
+PID0164,24,Female,174,57,99/65,No,65,Normal,Non-smoker,2025-03-23,Hypertension
+PID0165,35,Male,174,54,138/87,Yes,86,High,Former smoker,2025-02-20,Healthy
+PID0166,74,Male,168,80,109/70,Yes,65,High,Non-smoker,2023-06-26,Healthy
+PID0167,61,Male,162,92,140/72,No,60,Normal,Smoker,2024-07-09,Heart Disease
+PID0168,63,Male,156,98,138/81,Yes,63,Normal,Former smoker,2024-10-28,Healthy
+PID0169,69,Male,151,91,91/89,Yes,70,Normal,Non-smoker,2023-06-23,Diabetes
+PID0170,21,Male,156,76,125/70,No,100,Borderline,Non-smoker,2024-08-06,Hypertension
+PID0171,31,Female,166,50,117/72,No,96,High,Smoker,2023-02-01,Diabetes
+PID0172,45,Female,184,97,111/90,No,100,High,Non-smoker,2023-11-02,Healthy
+PID0173,29,Male,179,89,112/77,Yes,75,Normal,Smoker,2023-06-21,Heart Disease
+PID0174,41,Female,182,66,128/86,Yes,97,Normal,Former smoker,2024-06-02,Healthy
+PID0175,30,Female,174,65,130/64,No,98,Borderline,Smoker,2025-03-24,Heart Disease
+PID0176,78,Female,151,86,90/77,No,83,High,Smoker,2023-06-18,Diabetes
+PID0177,72,Male,154,85,125/89,No,96,Borderline,Non-smoker,2025-01-18,Heart Disease
+PID0178,23,Male,160,83,116/61,No,89,Normal,Former smoker,2024-04-27,Hypertension
+PID0179,31,Female,155,78,127/79,Yes,75,Borderline,Smoker,2023-01-28,Hypertension
+PID0180,58,Male,167,73,94/81,Yes,87,Normal,Smoker,2025-01-29,Hypertension
+PID0181,21,Male,161,92,137/62,Yes,68,Borderline,Smoker,2023-05-15,Heart Disease
+PID0182,79,Female,158,92,103/60,No,61,Borderline,Non-smoker,2022-12-02,Heart Disease
+PID0183,66,Female,169,57,92/63,No,77,Borderline,Non-smoker,2024-04-08,Healthy
+PID0184,61,Female,172,86,92/69,No,83,Normal,Smoker,2023-01-28,Diabetes
+PID0185,75,Male,153,51,109/71,Yes,86,High,Former smoker,2023-12-17,Healthy
+PID0186,35,Male,168,90,126/89,Yes,84,Normal,Former smoker,2023-12-28,Heart Disease
+PID0187,78,Female,167,84,118/63,Yes,71,Normal,Smoker,2024-01-14,Heart Disease
+PID0188,38,Male,151,82,128/82,Yes,97,Borderline,Smoker,2024-02-18,Diabetes
+PID0189,67,Male,172,75,134/70,Yes,90,Borderline,Former smoker,2023-02-15,Heart Disease
+PID0190,46,Male,151,54,124/86,No,78,Borderline,Former smoker,2025-03-11,Diabetes
+PID0191,44,Female,156,84,113/80,No,92,Normal,Non-smoker,2024-02-13,Hypertension
+PID0192,35,Male,160,83,101/83,Yes,72,Borderline,Former smoker,2023-07-05,Diabetes
+PID0193,74,Female,154,64,118/61,Yes,65,High,Former smoker,2024-01-31,Hypertension
+PID0194,70,Male,154,75,112/77,No,90,High,Smoker,2025-04-25,Healthy
+PID0195,65,Female,184,94,125/71,No,67,Borderline,Non-smoker,2024-03-31,Heart Disease
+PID0196,33,Male,167,78,102/73,Yes,84,Normal,Non-smoker,2024-04-23,Healthy
+PID0197,31,Female,177,51,107/81,Yes,64,Normal,Non-smoker,2022-11-23,Hypertension
+PID0198,38,Male,154,62,114/61,No,87,Normal,Smoker,2023-03-31,Healthy
+PID0199,63,Male,177,82,102/88,Yes,60,High,Smoker,2023-02-05,Heart Disease
+PID0200,34,Male,183,87,113/63,No,76,Normal,Former smoker,2024-02-11,Diabetes
+PID0201,32,Male,155,88,96/71,No,67,Normal,Non-smoker,2025-03-22,Healthy
+PID0202,74,Male,186,99,114/70,No,66,Borderline,Non-smoker,2025-05-29,Hypertension
+PID0203,37,Male,152,76,96/62,No,94,Normal,Smoker,2023-06-09,Heart Disease
+PID0204,64,Female,183,62,123/78,Yes,81,Borderline,Smoker,2022-11-25,Heart Disease
+PID0205,75,Male,170,77,110/71,Yes,94,Borderline,Former smoker,2023-01-25,Hypertension
+PID0206,53,Female,184,71,129/69,Yes,98,Normal,Smoker,2025-02-11,Diabetes
+PID0207,36,Male,177,80,98/71,No,71,Normal,Former smoker,2024-12-03,Diabetes
+PID0208,69,Male,160,83,128/85,Yes,85,High,Non-smoker,2024-04-05,Heart Disease
+PID0209,58,Male,165,57,116/62,No,70,High,Smoker,2024-09-22,Diabetes
+PID0210,78,Male,153,86,138/65,Yes,86,High,Non-smoker,2023-05-17,Healthy
+PID0211,30,Male,190,60,117/76,Yes,84,Borderline,Smoker,2023-07-15,Heart Disease
+PID0212,28,Female,177,56,135/60,Yes,93,Normal,Former smoker,2025-05-16,Hypertension
+PID0213,56,Male,153,97,132/70,Yes,97,High,Non-smoker,2023-08-01,Healthy
+PID0214,61,Female,158,98,92/64,Yes,61,Normal,Smoker,2023-01-31,Diabetes
+PID0215,61,Male,159,52,136/80,Yes,95,Normal,Non-smoker,2023-05-16,Hypertension
+PID0216,62,Female,179,83,106/60,Yes,95,Borderline,Former smoker,2024-04-11,Heart Disease
+PID0217,67,Male,155,85,118/86,Yes,100,Borderline,Non-smoker,2024-08-09,Healthy
+PID0218,57,Female,173,52,122/72,No,71,High,Former smoker,2025-07-01,Diabetes
+PID0219,79,Male,165,97,113/78,No,67,Borderline,Non-smoker,2022-12-11,Healthy
+PID0220,46,Female,179,73,105/71,No,95,Borderline,Former smoker,2024-10-12,Diabetes
+PID0221,26,Male,156,62,95/82,No,98,High,Smoker,2025-07-03,Heart Disease
+PID0222,69,Female,155,99,109/64,Yes,92,Normal,Smoker,2024-10-05,Heart Disease
+PID0223,36,Male,186,91,109/80,No,70,Normal,Former smoker,2025-01-20,Diabetes
+PID0224,51,Female,185,62,99/65,Yes,82,Borderline,Former smoker,2023-06-29,Healthy
+PID0225,66,Male,177,69,140/72,No,88,Borderline,Non-smoker,2023-07-07,Healthy
+PID0226,67,Male,172,63,121/81,No,87,Borderline,Non-smoker,2023-02-12,Healthy
+PID0227,73,Female,180,79,91/87,No,98,High,Smoker,2024-12-01,Diabetes
+PID0228,72,Male,162,99,127/83,Yes,64,Borderline,Non-smoker,2023-04-04,Heart Disease
+PID0229,43,Male,163,98,91/86,No,92,Normal,Non-smoker,2023-10-11,Hypertension
+PID0230,75,Female,188,90,117/85,No,69,Borderline,Former smoker,2023-02-05,Healthy
+PID0231,69,Female,164,71,132/84,No,86,High,Former smoker,2024-05-19,Heart Disease
+PID0232,77,Male,171,96,99/78,No,73,High,Non-smoker,2023-06-10,Healthy
+PID0233,68,Male,156,59,132/64,Yes,98,Borderline,Smoker,2024-07-06,Healthy
+PID0234,75,Male,165,66,93/75,No,100,High,Former smoker,2024-07-18,Healthy
+PID0235,20,Male,169,53,137/89,Yes,68,High,Smoker,2024-06-19,Healthy
+PID0236,66,Female,152,85,98/70,No,96,High,Smoker,2024-10-14,Heart Disease
+PID0237,24,Female,161,67,91/90,No,90,Normal,Non-smoker,2023-09-17,Healthy
+PID0238,56,Female,174,78,131/73,No,98,Normal,Smoker,2024-03-18,Hypertension
+PID0239,74,Female,180,80,139/78,Yes,63,Borderline,Smoker,2023-06-04,Diabetes
+PID0240,34,Male,167,66,135/77,No,65,Normal,Non-smoker,2025-06-02,Hypertension
+PID0241,52,Female,164,76,98/68,Yes,92,Normal,Former smoker,2024-06-13,Heart Disease
+PID0242,25,Female,167,95,97/75,No,77,Borderline,Former smoker,2024-11-11,Diabetes
+PID0243,48,Female,180,76,137/87,Yes,79,Borderline,Former smoker,2023-08-19,Heart Disease
+PID0244,68,Male,178,82,121/67,Yes,96,High,Non-smoker,2023-06-13,Hypertension
+PID0245,37,Male,158,95,125/90,No,87,Borderline,Former smoker,2023-02-01,Hypertension
+PID0246,25,Male,178,86,99/78,No,69,High,Non-smoker,2023-02-08,Heart Disease
+PID0247,63,Male,151,95,92/76,Yes,75,High,Former smoker,2024-09-04,Healthy
+PID0248,20,Male,167,87,119/66,No,73,Normal,Smoker,2023-06-03,Healthy
+PID0249,72,Male,158,56,115/66,Yes,62,Borderline,Former smoker,2025-01-16,Diabetes
+PID0250,51,Female,156,65,138/63,Yes,88,Borderline,Non-smoker,2024-12-23,Diabetes
+PID0251,52,Female,175,87,109/72,Yes,65,Normal,Former smoker,2023-05-14,Heart Disease
+PID0252,66,Male,189,76,103/73,Yes,81,Borderline,Non-smoker,2024-05-25,Diabetes
+PID0253,49,Female,179,51,121/61,No,90,Normal,Former smoker,2023-06-12,Healthy
+PID0254,80,Male,177,69,91/61,No,94,Borderline,Non-smoker,2024-11-22,Healthy
+PID0255,74,Female,168,91,125/65,Yes,94,High,Non-smoker,2023-09-15,Hypertension
+PID0256,67,Male,170,51,133/82,No,88,High,Smoker,2023-09-30,Hypertension
+PID0257,74,Male,176,52,132/81,No,69,High,Former smoker,2022-11-09,Hypertension
+PID0258,76,Female,150,75,126/68,Yes,91,Normal,Former smoker,2024-03-03,Hypertension
+PID0259,55,Male,156,89,90/88,Yes,83,Normal,Smoker,2024-10-04,Hypertension
+PID0260,37,Female,161,97,138/86,Yes,78,Normal,Former smoker,2024-03-13,Healthy
+PID0261,31,Male,165,79,137/65,Yes,91,Normal,Non-smoker,2024-08-12,Hypertension
+PID0262,31,Male,162,93,95/63,No,88,High,Non-smoker,2022-11-09,Healthy
+PID0263,29,Male,174,50,129/61,No,89,High,Non-smoker,2025-04-29,Diabetes
+PID0264,69,Female,175,95,95/77,No,70,High,Smoker,2024-03-18,Diabetes
+PID0265,29,Female,180,83,121/64,Yes,86,High,Former smoker,2024-03-04,Hypertension
+PID0266,69,Male,176,100,98/84,Yes,84,Normal,Smoker,2024-02-06,Heart Disease
+PID0267,40,Male,161,98,94/79,Yes,66,High,Smoker,2025-07-06,Diabetes
+PID0268,27,Male,178,87,135/80,Yes,66,Borderline,Non-smoker,2024-12-09,Diabetes
+PID0269,34,Female,175,67,102/63,No,61,Normal,Smoker,2023-01-16,Heart Disease
+PID0270,20,Female,163,72,134/81,Yes,78,Normal,Smoker,2024-05-15,Heart Disease
+PID0271,49,Male,173,59,91/74,No,95,Normal,Non-smoker,2024-09-03,Healthy
+PID0272,72,Female,186,97,135/69,Yes,71,High,Former smoker,2025-01-18,Heart Disease
+PID0273,59,Female,165,92,92/82,Yes,89,Borderline,Non-smoker,2024-12-29,Healthy
+PID0274,66,Male,166,100,96/69,Yes,77,High,Non-smoker,2023-09-15,Hypertension
+PID0275,70,Female,165,57,116/69,No,96,Normal,Smoker,2023-07-19,Heart Disease
+PID0276,70,Male,150,71,105/76,Yes,74,Normal,Smoker,2024-04-17,Diabetes
+PID0277,52,Male,173,86,122/63,Yes,95,Normal,Non-smoker,2023-08-17,Healthy
+PID0278,29,Male,173,94,110/78,Yes,60,High,Smoker,2022-11-23,Diabetes
+PID0279,21,Female,190,69,134/89,No,66,Normal,Non-smoker,2022-11-14,Healthy
+PID0280,57,Female,160,61,98/74,Yes,72,High,Smoker,2024-09-19,Healthy
+PID0281,28,Male,165,72,101/72,No,65,Borderline,Smoker,2025-05-15,Diabetes
+PID0282,59,Male,154,72,136/70,Yes,69,High,Smoker,2023-03-12,Healthy
+PID0283,78,Male,152,91,129/75,Yes,69,Borderline,Former smoker,2023-01-23,Healthy
+PID0284,32,Male,175,94,96/75,No,97,High,Smoker,2023-04-07,Healthy
+PID0285,76,Male,168,59,126/72,Yes,83,High,Former smoker,2025-03-17,Heart Disease
+PID0286,77,Female,165,99,115/75,No,68,High,Non-smoker,2023-04-28,Heart Disease
+PID0287,32,Female,178,60,126/76,Yes,65,Normal,Non-smoker,2024-03-10,Healthy
+PID0288,30,Female,190,56,116/82,Yes,87,Normal,Former smoker,2022-10-18,Hypertension
+PID0289,48,Female,182,73,137/71,No,94,High,Smoker,2024-09-25,Hypertension
+PID0290,64,Male,174,100,108/80,No,65,Borderline,Former smoker,2023-08-16,Diabetes
+PID0291,37,Male,156,89,98/88,Yes,70,Normal,Non-smoker,2023-06-07,Diabetes
+PID0292,38,Male,166,88,103/73,Yes,76,Borderline,Former smoker,2023-12-20,Diabetes
+PID0293,23,Female,178,92,116/69,No,68,Borderline,Former smoker,2022-12-11,Hypertension
+PID0294,80,Female,186,50,97/86,No,62,High,Non-smoker,2024-07-06,Hypertension
+PID0295,45,Female,162,72,117/83,No,92,Borderline,Smoker,2024-08-17,Healthy
+PID0296,75,Female,173,63,115/73,Yes,93,Normal,Non-smoker,2023-10-22,Healthy
+PID0297,80,Female,184,87,110/77,Yes,76,High,Smoker,2023-06-25,Hypertension
+PID0298,80,Male,168,72,114/64,No,69,Borderline,Non-smoker,2024-07-22,Healthy
+PID0299,36,Female,183,73,133/77,Yes,75,Borderline,Non-smoker,2024-11-22,Heart Disease
+PID0300,79,Female,188,86,93/68,Yes,84,High,Former smoker,2024-02-07,Hypertension
+PID0301,60,Male,168,62,108/68,No,68,Normal,Non-smoker,2024-06-06,Heart Disease
+PID0302,47,Male,163,98,127/73,No,86,Borderline,Smoker,2022-12-10,Heart Disease
+PID0303,45,Female,178,66,131/63,No,73,Normal,Smoker,2024-06-08,Diabetes
+PID0304,40,Female,171,68,111/72,Yes,85,Normal,Former smoker,2023-10-11,Hypertension
+PID0305,21,Female,186,64,123/67,No,62,High,Smoker,2023-05-20,Heart Disease
+PID0306,29,Female,164,91,129/79,No,66,Borderline,Former smoker,2023-03-17,Hypertension
+PID0307,44,Male,159,63,116/87,No,75,Normal,Former smoker,2024-06-06,Healthy
+PID0308,71,Male,151,56,108/66,No,70,Normal,Smoker,2025-01-18,Heart Disease
+PID0309,73,Female,187,93,104/90,Yes,98,Normal,Non-smoker,2025-03-12,Heart Disease
+PID0310,47,Female,167,99,114/60,Yes,78,Borderline,Former smoker,2025-03-25,Healthy
+PID0311,51,Male,160,100,132/60,No,64,Borderline,Smoker,2024-08-02,Heart Disease
+PID0312,42,Male,168,97,105/71,No,79,Normal,Smoker,2023-11-29,Healthy
+PID0313,60,Female,161,86,114/85,Yes,69,Borderline,Non-smoker,2023-10-16,Diabetes
+PID0314,45,Female,165,53,121/83,No,87,Normal,Former smoker,2023-11-24,Diabetes
+PID0315,39,Female,167,70,113/70,Yes,73,Normal,Non-smoker,2024-05-02,Diabetes
+PID0316,23,Male,156,80,116/88,No,100,Borderline,Former smoker,2023-10-28,Healthy
+PID0317,62,Male,185,64,135/67,No,88,Normal,Non-smoker,2023-06-10,Hypertension
+PID0318,64,Male,158,96,138/85,No,98,Borderline,Non-smoker,2024-02-14,Hypertension
+PID0319,24,Male,150,74,113/69,No,98,Borderline,Former smoker,2023-01-27,Heart Disease
+PID0320,72,Male,182,58,105/69,Yes,91,High,Smoker,2023-05-18,Hypertension
+PID0321,48,Male,177,60,90/90,No,85,High,Former smoker,2024-05-29,Heart Disease
+PID0322,53,Female,176,97,126/60,Yes,79,Borderline,Smoker,2022-12-17,Healthy
+PID0323,20,Male,177,67,102/61,Yes,87,Borderline,Non-smoker,2023-05-08,Healthy
+PID0324,79,Male,154,78,97/90,No,100,High,Non-smoker,2025-03-11,Hypertension
+PID0325,60,Female,162,81,115/70,Yes,79,Normal,Smoker,2024-03-14,Hypertension
+PID0326,39,Female,186,65,128/60,No,79,Normal,Non-smoker,2023-12-31,Heart Disease
+PID0327,35,Male,165,79,108/90,No,62,Normal,Non-smoker,2023-11-06,Hypertension
+PID0328,44,Female,156,67,131/88,Yes,68,High,Smoker,2024-03-09,Heart Disease
+PID0329,77,Male,185,76,140/69,Yes,72,Borderline,Former smoker,2025-04-02,Heart Disease
+PID0330,37,Female,181,79,132/73,Yes,61,High,Smoker,2024-06-12,Healthy
+PID0331,69,Male,163,98,128/61,No,75,Normal,Smoker,2023-11-15,Hypertension
+PID0332,79,Male,158,67,131/65,Yes,99,Normal,Smoker,2023-12-10,Heart Disease
+PID0333,21,Female,163,70,127/67,No,96,Normal,Smoker,2024-03-31,Healthy
+PID0334,29,Female,172,56,94/90,No,89,Normal,Smoker,2024-12-01,Healthy
+PID0335,57,Male,177,81,137/79,No,60,High,Smoker,2023-07-04,Healthy
+PID0336,73,Male,182,61,99/69,Yes,71,Borderline,Smoker,2023-11-11,Heart Disease
+PID0337,79,Female,162,98,114/63,No,64,High,Non-smoker,2024-11-15,Diabetes
+PID0338,62,Female,169,83,136/71,No,96,High,Non-smoker,2024-08-21,Healthy
+PID0339,55,Male,168,75,111/63,No,63,Borderline,Smoker,2024-11-02,Heart Disease
+PID0340,47,Male,177,95,103/61,No,65,Borderline,Non-smoker,2023-08-07,Healthy
+PID0341,73,Female,157,64,105/73,No,98,High,Former smoker,2023-06-28,Heart Disease
+PID0342,67,Female,183,62,114/77,No,93,Normal,Non-smoker,2023-06-22,Diabetes
+PID0343,29,Male,155,87,127/77,Yes,65,High,Non-smoker,2023-05-16,Heart Disease
+PID0344,60,Female,182,76,131/80,Yes,79,Normal,Smoker,2023-04-29,Hypertension
+PID0345,67,Male,175,59,138/75,No,80,Borderline,Non-smoker,2024-04-09,Heart Disease
+PID0346,74,Female,174,73,107/72,Yes,86,Borderline,Former smoker,2024-04-12,Heart Disease
+PID0347,70,Male,157,93,125/76,Yes,71,Normal,Non-smoker,2024-04-17,Heart Disease
+PID0348,56,Female,155,66,103/83,Yes,71,Normal,Non-smoker,2023-11-16,Diabetes
+PID0349,20,Female,183,86,105/76,Yes,86,Normal,Former smoker,2025-02-23,Healthy
+PID0350,69,Male,187,87,115/83,No,87,Normal,Non-smoker,2024-04-10,Diabetes
+PID0351,79,Male,177,60,109/84,Yes,100,Borderline,Former smoker,2024-03-01,Heart Disease
+PID0352,37,Male,186,99,102/76,Yes,67,Normal,Non-smoker,2025-01-24,Healthy
+PID0353,25,Female,159,67,102/73,No,75,Normal,Former smoker,2023-06-10,Healthy
+PID0354,25,Male,167,60,132/85,Yes,71,High,Former smoker,2022-11-26,Heart Disease
+PID0355,47,Female,188,80,129/63,Yes,92,High,Former smoker,2023-04-13,Diabetes
+PID0356,75,Male,155,51,123/62,Yes,62,Normal,Non-smoker,2025-03-12,Hypertension
+PID0357,31,Male,183,69,103/68,Yes,93,High,Smoker,2025-04-20,Healthy
+PID0358,31,Female,184,99,114/81,Yes,92,Normal,Former smoker,2022-12-05,Healthy
+PID0359,80,Female,151,97,121/60,No,86,Normal,Smoker,2025-02-23,Diabetes
+PID0360,71,Female,167,88,111/65,Yes,93,High,Non-smoker,2023-08-15,Hypertension
+PID0361,54,Male,190,78,123/83,Yes,75,Borderline,Smoker,2025-01-31,Healthy
+PID0362,56,Male,155,84,97/61,Yes,94,Borderline,Former smoker,2023-04-16,Healthy
+PID0363,65,Male,158,77,128/60,No,75,Borderline,Smoker,2025-01-31,Healthy
+PID0364,32,Female,164,88,133/64,No,74,Normal,Former smoker,2024-09-30,Hypertension
+PID0365,52,Male,155,66,139/65,No,88,Normal,Non-smoker,2025-03-13,Diabetes
+PID0366,39,Female,173,76,93/87,Yes,86,Normal,Former smoker,2022-11-14,Diabetes
+PID0367,27,Male,177,88,117/81,Yes,73,High,Smoker,2024-11-01,Diabetes
+PID0368,33,Male,158,85,104/68,Yes,82,Normal,Smoker,2024-09-16,Healthy
+PID0369,42,Female,168,83,127/77,No,87,Normal,Non-smoker,2025-06-16,Heart Disease
+PID0370,67,Female,178,68,121/74,No,96,Normal,Non-smoker,2024-06-20,Diabetes
+PID0371,20,Male,166,80,136/62,No,75,High,Non-smoker,2024-03-17,Healthy
+PID0372,77,Male,169,77,99/73,No,99,Borderline,Smoker,2024-10-20,Hypertension
+PID0373,71,Female,158,96,122/61,Yes,66,High,Smoker,2024-10-27,Heart Disease
+PID0374,39,Female,162,83,137/90,No,72,Normal,Former smoker,2023-05-16,Healthy
+PID0375,20,Male,158,81,99/72,Yes,78,High,Smoker,2024-01-19,Diabetes
+PID0376,39,Male,190,50,92/74,Yes,78,High,Smoker,2023-01-09,Healthy
+PID0377,47,Male,180,52,107/84,No,65,High,Smoker,2024-09-26,Heart Disease
+PID0378,69,Female,181,67,98/76,Yes,67,Normal,Non-smoker,2024-06-22,Heart Disease
+PID0379,23,Female,165,69,124/72,No,61,High,Non-smoker,2024-12-10,Heart Disease
+PID0380,36,Male,175,84,103/78,No,64,High,Former smoker,2024-09-14,Healthy
+PID0381,48,Male,179,55,126/64,No,76,Borderline,Smoker,2024-10-23,Healthy
+PID0382,80,Female,174,63,121/75,Yes,80,High,Smoker,2023-05-26,Heart Disease
+PID0383,67,Female,163,55,125/63,Yes,73,Borderline,Former smoker,2024-11-12,Diabetes
+PID0384,26,Female,153,83,139/76,No,75,Borderline,Former smoker,2025-03-08,Healthy
+PID0385,60,Male,176,92,97/60,No,86,High,Former smoker,2023-10-28,Hypertension
+PID0386,21,Female,159,89,91/70,Yes,99,High,Smoker,2024-08-12,Hypertension
+PID0387,40,Female,188,59,93/86,Yes,98,Normal,Smoker,2024-08-04,Heart Disease
+PID0388,42,Female,166,53,99/73,Yes,61,Normal,Smoker,2023-04-21,Hypertension
+PID0389,21,Male,183,79,138/86,Yes,82,High,Former smoker,2024-06-14,Diabetes
+PID0390,64,Male,156,81,94/89,No,91,Borderline,Smoker,2023-04-21,Healthy
+PID0391,54,Female,171,59,124/88,Yes,75,High,Non-smoker,2023-12-15,Heart Disease
+PID0392,58,Female,160,71,124/75,No,93,Normal,Non-smoker,2023-05-20,Healthy
+PID0393,43,Male,166,79,101/74,No,78,High,Non-smoker,2024-06-14,Diabetes
+PID0394,74,Female,180,98,128/89,Yes,96,Borderline,Former smoker,2025-03-20,Hypertension
+PID0395,80,Male,184,55,101/83,No,94,High,Former smoker,2024-02-15,Healthy
+PID0396,23,Female,176,64,92/83,Yes,61,Borderline,Smoker,2025-06-18,Diabetes
+PID0397,56,Female,175,97,132/84,Yes,70,High,Smoker,2024-05-21,Hypertension
+PID0398,21,Male,171,68,109/63,Yes,70,Borderline,Non-smoker,2024-04-28,Healthy
+PID0399,73,Male,150,66,102/88,No,71,Normal,Smoker,2023-09-07,Healthy
+PID0400,71,Male,188,92,136/85,No,91,High,Former smoker,2025-04-01,Heart Disease
+PID0401,47,Male,184,88,112/84,Yes,74,Normal,Non-smoker,2023-01-14,Healthy
+PID0402,27,Male,177,76,135/86,No,69,Normal,Non-smoker,2025-05-24,Healthy
+PID0403,58,Male,170,84,100/78,No,63,Borderline,Smoker,2022-10-14,Heart Disease
+PID0404,59,Female,159,72,90/83,No,66,Normal,Smoker,2022-10-19,Diabetes
+PID0405,56,Female,151,84,108/76,Yes,96,Borderline,Smoker,2023-12-02,Heart Disease
+PID0406,55,Female,176,53,95/90,Yes,90,Borderline,Former smoker,2024-04-20,Healthy
+PID0407,34,Male,180,69,116/78,Yes,73,High,Smoker,2023-03-26,Diabetes
+PID0408,79,Female,153,95,127/90,No,88,High,Non-smoker,2025-04-19,Hypertension
+PID0409,75,Male,160,57,97/78,Yes,87,Normal,Smoker,2022-12-11,Healthy
+PID0410,63,Female,166,65,94/63,No,63,Normal,Smoker,2023-04-19,Healthy
+PID0411,30,Male,189,82,92/83,Yes,85,Normal,Non-smoker,2023-05-31,Healthy
+PID0412,74,Male,186,86,106/65,Yes,68,High,Former smoker,2023-12-15,Heart Disease
+PID0413,65,Male,160,96,90/68,Yes,72,Borderline,Former smoker,2024-11-17,Hypertension
+PID0414,78,Female,155,79,114/64,No,93,High,Former smoker,2024-01-20,Healthy
+PID0415,56,Male,188,74,112/77,Yes,100,High,Smoker,2025-06-22,Hypertension
+PID0416,60,Male,152,88,108/90,No,70,Normal,Non-smoker,2024-10-06,Heart Disease
+PID0417,37,Female,176,58,96/89,Yes,93,Borderline,Non-smoker,2025-04-03,Healthy
+PID0418,71,Female,181,59,93/89,Yes,70,High,Smoker,2023-01-12,Hypertension
+PID0419,64,Male,156,78,130/78,Yes,94,Borderline,Former smoker,2024-05-14,Heart Disease
+PID0420,40,Male,175,53,129/69,No,97,High,Non-smoker,2025-07-02,Diabetes
+PID0421,77,Female,152,67,113/87,No,62,High,Former smoker,2025-02-21,Healthy
+PID0422,23,Male,189,92,111/62,Yes,95,High,Smoker,2023-04-07,Healthy
+PID0423,40,Female,164,59,112/83,Yes,91,Borderline,Non-smoker,2023-05-26,Healthy
+PID0424,77,Male,154,86,107/71,Yes,70,High,Smoker,2023-05-12,Diabetes
+PID0425,39,Female,171,88,121/71,No,64,High,Non-smoker,2025-01-09,Diabetes
+PID0426,31,Female,177,79,104/71,Yes,65,High,Smoker,2024-02-21,Heart Disease
+PID0427,31,Female,164,95,130/85,No,75,Normal,Non-smoker,2023-04-14,Healthy
+PID0428,24,Male,151,89,122/75,No,80,High,Non-smoker,2023-04-04,Healthy
+PID0429,60,Male,154,66,132/73,Yes,70,Normal,Smoker,2023-07-12,Diabetes
+PID0430,74,Female,165,87,111/73,Yes,93,Normal,Smoker,2024-04-18,Diabetes
+PID0431,20,Female,187,70,104/63,No,86,Borderline,Former smoker,2024-04-18,Heart Disease
+PID0432,63,Male,190,65,119/73,No,67,Borderline,Non-smoker,2023-09-01,Diabetes
+PID0433,42,Female,168,61,105/83,No,84,High,Former smoker,2025-05-11,Hypertension
+PID0434,46,Male,154,87,103/83,No,91,Borderline,Non-smoker,2025-03-30,Healthy
+PID0435,54,Female,168,88,93/61,No,99,High,Non-smoker,2024-07-05,Hypertension
+PID0436,71,Male,156,66,114/89,Yes,66,Borderline,Former smoker,2025-01-31,Hypertension
+PID0437,28,Male,161,76,121/62,No,62,High,Former smoker,2025-06-07,Heart Disease
+PID0438,77,Male,184,53,127/62,No,86,Borderline,Non-smoker,2022-12-11,Heart Disease
+PID0439,59,Male,157,80,135/79,Yes,78,High,Non-smoker,2025-06-22,Hypertension
+PID0440,59,Male,160,82,129/62,No,92,Normal,Non-smoker,2023-11-12,Hypertension
+PID0441,73,Male,154,66,140/74,No,65,Borderline,Non-smoker,2024-06-09,Hypertension
+PID0442,39,Male,161,97,123/68,No,86,High,Smoker,2024-03-05,Hypertension
+PID0443,27,Male,187,59,133/86,Yes,69,Borderline,Smoker,2024-07-01,Hypertension
+PID0444,45,Male,151,69,103/69,Yes,96,Borderline,Non-smoker,2023-03-18,Heart Disease
+PID0445,64,Female,171,88,100/78,No,92,Borderline,Former smoker,2024-04-16,Heart Disease
+PID0446,66,Female,155,92,133/63,No,66,Normal,Former smoker,2025-06-15,Heart Disease
+PID0447,70,Female,171,51,126/72,Yes,85,Borderline,Former smoker,2023-08-10,Diabetes
+PID0448,72,Female,174,69,107/77,Yes,79,High,Former smoker,2023-03-21,Heart Disease
+PID0449,53,Male,153,70,140/89,Yes,84,Normal,Former smoker,2024-09-03,Diabetes
+PID0450,74,Female,181,67,122/68,Yes,73,Borderline,Former smoker,2023-12-20,Diabetes
+PID0451,50,Male,180,54,91/82,Yes,75,Normal,Non-smoker,2023-09-22,Healthy
+PID0452,46,Female,173,70,118/64,Yes,82,High,Non-smoker,2023-10-10,Diabetes
+PID0453,48,Female,183,66,132/63,No,63,High,Former smoker,2024-08-18,Diabetes
+PID0454,54,Male,174,67,120/64,Yes,81,High,Smoker,2024-05-17,Heart Disease
+PID0455,50,Male,151,79,133/80,Yes,91,High,Non-smoker,2024-11-17,Heart Disease
+PID0456,35,Male,168,58,113/90,No,98,Borderline,Former smoker,2023-12-11,Diabetes
+PID0457,72,Male,183,89,114/87,Yes,75,Normal,Smoker,2024-06-02,Diabetes
+PID0458,50,Male,171,89,116/83,Yes,62,Normal,Non-smoker,2023-10-21,Heart Disease
+PID0459,57,Female,187,74,109/84,Yes,92,Borderline,Former smoker,2024-05-04,Hypertension
+PID0460,69,Female,153,85,139/65,Yes,99,High,Smoker,2025-02-25,Healthy
+PID0461,30,Female,162,59,116/61,No,96,Borderline,Non-smoker,2024-08-07,Healthy
+PID0462,33,Female,187,74,140/70,Yes,99,High,Non-smoker,2024-10-22,Diabetes
+PID0463,50,Male,190,64,95/88,Yes,92,Normal,Former smoker,2025-05-20,Hypertension
+PID0464,72,Male,160,80,133/90,No,93,Normal,Smoker,2023-03-15,Diabetes
+PID0465,72,Female,168,89,113/71,Yes,69,Borderline,Non-smoker,2024-02-04,Diabetes
+PID0466,30,Male,167,67,123/76,Yes,81,High,Non-smoker,2022-11-06,Heart Disease
+PID0467,65,Female,164,70,127/90,No,100,Borderline,Smoker,2024-09-14,Healthy
+PID0468,74,Female,185,97,125/80,Yes,96,Normal,Non-smoker,2023-04-30,Healthy
+PID0469,64,Female,171,78,117/62,Yes,73,Normal,Smoker,2025-02-25,Hypertension
+PID0470,58,Female,179,90,139/82,Yes,74,High,Former smoker,2024-10-18,Heart Disease
+PID0471,52,Male,173,95,132/89,Yes,98,Normal,Smoker,2023-04-25,Healthy
+PID0472,24,Male,169,74,120/68,Yes,70,Normal,Smoker,2023-02-03,Diabetes
+PID0473,63,Male,163,74,94/82,No,94,High,Smoker,2024-04-03,Diabetes
+PID0474,29,Female,150,50,121/67,Yes,99,High,Former smoker,2024-02-27,Diabetes
+PID0475,42,Female,182,57,137/85,No,94,High,Smoker,2023-08-05,Diabetes
+PID0476,69,Female,168,85,130/64,Yes,70,High,Former smoker,2023-03-13,Diabetes
+PID0477,67,Female,178,51,102/77,Yes,73,Borderline,Smoker,2024-08-28,Diabetes
+PID0478,46,Female,161,57,123/76,Yes,97,High,Former smoker,2025-07-08,Healthy
+PID0479,31,Male,184,69,127/69,Yes,70,High,Smoker,2025-04-25,Heart Disease
+PID0480,32,Male,190,87,118/60,Yes,82,Borderline,Non-smoker,2025-03-02,Hypertension
+PID0481,52,Female,187,75,108/70,No,67,Borderline,Non-smoker,2022-11-03,Diabetes
+PID0482,72,Male,171,86,103/81,Yes,83,Borderline,Non-smoker,2023-05-02,Hypertension
+PID0483,44,Female,187,59,93/68,Yes,74,Borderline,Former smoker,2024-10-07,Healthy
+PID0484,50,Female,173,67,113/61,Yes,97,Normal,Former smoker,2023-05-10,Diabetes
+PID0485,38,Female,177,100,94/67,No,93,Borderline,Former smoker,2023-10-05,Heart Disease
+PID0486,51,Female,158,53,111/66,Yes,97,Normal,Former smoker,2024-07-24,Diabetes
+PID0487,56,Male,174,62,139/88,Yes,82,High,Smoker,2022-10-21,Hypertension
+PID0488,45,Male,187,75,111/69,No,82,Normal,Non-smoker,2025-04-05,Diabetes
+PID0489,45,Male,153,95,90/78,No,99,Borderline,Smoker,2023-05-24,Hypertension
+PID0490,57,Female,164,100,119/87,No,84,Normal,Smoker,2024-10-19,Diabetes
+PID0491,28,Female,166,94,109/61,Yes,67,Borderline,Smoker,2023-10-25,Hypertension
+PID0492,57,Female,160,52,103/77,No,91,Borderline,Smoker,2023-02-05,Heart Disease
+PID0493,52,Male,171,82,124/85,Yes,95,Normal,Smoker,2024-11-13,Diabetes
+PID0494,56,Female,156,54,91/79,No,71,Borderline,Non-smoker,2023-06-28,Diabetes
+PID0495,25,Male,166,79,117/84,No,100,High,Former smoker,2022-10-17,Hypertension
+PID0496,73,Female,159,75,113/64,Yes,81,High,Former smoker,2025-02-21,Diabetes
+PID0497,68,Female,188,67,116/67,Yes,60,High,Smoker,2023-01-26,Heart Disease
+PID0498,30,Female,165,83,97/77,Yes,73,Normal,Former smoker,2022-10-14,Diabetes
+PID0499,40,Male,161,75,110/85,Yes,82,Borderline,Non-smoker,2025-05-28,Healthy
+PID0500,46,Female,175,85,103/80,Yes,87,Borderline,Non-smoker,2023-01-20,Diabetes
